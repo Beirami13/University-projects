@@ -1,38 +1,38 @@
-# الگوریتم‌های پیشرفته
+# Advanced Algorithms
 
-یه مجموعه از پیاده‌سازی‌های الگوریتمی با پایتون برای مسائل بهینه‌سازی و محاسباتی.
+A collection of algorithm implementations in Python for optimization and computational problems.
 
-## پروژه‌ها
+## Projects
 
-### ۱. ضرب ماتریس (Divide & Conquer vs Strassen)
-مقایسه دو روش ضرب ماتریس:
-- **روش تقسیم و حل** (Divide & Conquer)
-- **روش اشتراسن** (Strassen)
+### 1. Matrix Multiplication (Divide & Conquer vs Strassen)
+Comparison of two matrix multiplication methods:
+- **Divide & Conquer** method
+- **Strassen** method
 
-قابلیت دریافت ماتریس با سایز دلخواه (توانی از ۲) و نمایش زمان اجرا.
+Accepts matrix sizes that are powers of 2 and displays execution time.
 
-### ۲. مسئله N وزیر (Monte Carlo)
-تخمین تعداد جواب‌های مسئله N وزیر با استفاده از روش مونت کارلو. ورودی‌ها:
-- n: اندازه صفحه شطرنج
-- trials: تعداد دفعات شبیه‌سازی
+### 2. N-Queens Problem (Monte Carlo)
+Estimates the number of solutions for the N-Queens problem using the Monte Carlo method. Inputs:
+- n: chessboard size
+- trials: number of simulation runs
 
-### ۳. مسئله فروشنده دوره‌گرد (TSP)
-حل مسئله TSP با برنامه‌ریزی پویا (Dynamic Programming) و نمایش مسیر بهینه.
+### 3. Traveling Salesman Problem (TSP)
+Solves TSP using Dynamic Programming and displays the optimal path.
 
-مثال با ۴ شهر:
-- مسیر: 0 → 1 → 3 → 2 → 0
-- هزینه بهینه: 80
+Example with 4 cities:
+- Path: 0 → 1 → 3 → 2 → 0
+- Optimal cost: 80
 
-## تکنولوژی‌ها
+## Technologies
 - Python 3.x
-- فقط کتابخانه‌های استاندارد
+- Standard library only
 
-## اجرا
+## Run
 ```bash
-# ضرب ماتریس
+# Matrix Multiplication
 python "Naive vs. Strassen.py"
 
-# N وزیر
+# N-Queens
 python N_Queens.py
 
 # TSP
